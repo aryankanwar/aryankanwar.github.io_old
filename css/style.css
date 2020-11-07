@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;      
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #008ba2;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #000;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    background: #ADA996;
+    background: -webkit-linear-gradient(180deg, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    background: linear-gradient(180deg, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    min-height: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.header {
+    background: #008ba2;
+    padding: 10px;
+    position: absolute;
+    height: 110px;
+    width: 100%;
+    z-index: +1;
+    box-shadow: 0px -8px 18px 0px #000;
+    box-sizing: border-box;
+}
+
+.col-1 {
+    width: 70%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    padding-left: 90px;
+    z-index:+100;
+}
+
+.col-2 {
+    width: 30%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    padding-right: 90px;
+    z-index: +100
+}
+
+.section {
+    overflow: auto;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.name {
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 0px 1px 6px #000;
+    letter-spacing: 1px;
+}
+
+.name a {
+    color: #fff;
+}
+
+#info {
+    margin-bottom: 35px;
+}
+
+.designation {
+    font-size: 14px;
+    color: #fff;
+    text-shadow: 0px 1px 6px #000;
+    letter-spacing: 5.25px;
+}
+
+.company {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+table td {
+    font-size: 14px;
+    padding: 2.5px;
+}
+
+table tr td:first-child {
+    width: 135px;
+}
+
+#workexperience table tr td:first-child {
+    width: 700px;
+}
+
+.photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 255, 0, 0.1) inset;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.resume {
+    background: linear-gradient(45deg, #ffc300, #008ba2);
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.resume a {
+    color: #fff;
+}
+
+.resume a:hover {
+    color: #000;
+}
+
+.about {
+    font-size: 15px;
+}
+
+#connect table tr td:first-child {
+    width: 60px;
+}
+
+ul {
+    padding: 2.5px;
+}
+
+ul li {
+    display: inline;
+    padding: 2.5px;
+    padding-right: 30px;
+    font-size: 14px;
+}
